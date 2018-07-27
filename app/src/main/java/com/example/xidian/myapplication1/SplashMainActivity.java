@@ -21,7 +21,7 @@ public class SplashMainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.slpash_logo);
         slpash_version = findViewById(R.id.slpash_version);
 
-//        初始化方法
+        //初始化方法
         initUi();
         //初始化数据;
         initData();
@@ -29,7 +29,7 @@ public class SplashMainActivity extends AppCompatActivity {
         timer1();
     }
     /**
-     *
+     *动画跳转时间;
      */
     public void timer1() {
         Timer timer = new Timer();
