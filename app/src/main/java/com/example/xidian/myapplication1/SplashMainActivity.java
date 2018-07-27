@@ -31,6 +31,7 @@ public class SplashMainActivity extends AppCompatActivity {
     /**
      *动画跳转时间;
      */
+
     public void timer1() {
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
