@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\e8e8c0189a595ccc6a4b3f0f081e43c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b488bbcb5d7d41354214b42c9fafc774\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\b11f3cfb620480e6af578211c3ede121\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a9020a4f79e0e2cf2c1ee5dff1d6e130\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\51cc7bad8b17a5e9b33d84ac2e907ae4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\97a1419d8ae3a13a82545cfd0139d402\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\6bfd5d5c097fae7ad0539a0531965859\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\35bfefc8cbcd152a945ba5cfc554bb54\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fff56aa0af1c26586b44844e950ab721\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ad1cc21121023eec0175487d7a9f02c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\9e6cc293e28e4a8d22983c8094d4f862\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5cb4c60eacc5c3c9fcf990add5cd4249\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0e9c8baadc1a59ab8922631f2dc3f710\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65bc14a62abdddbdd97c269d0d3d8959\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c13b2b5d8b2cf2cc4e85997932a4eae8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bf92c41d3e2cc814613103e6e5b6167\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:4:5-83
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:7:9-49
+	android:allowBackup
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.xidian.myapplication1.SplashMainActivity
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:12:9-17:20
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:12:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.example.xidian.myapplication1.HomeMainActivity
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:18:9-54
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:18:19-51
+activity#com.example.xidian.myapplication1.List_Activity
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:19:19-48
+activity#com.example.xidian.myapplication1.Ok_http
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:20:9-45
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:20:19-42
+activity#com.example.xidian.myapplication1.YuyinXf
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:21:9-45
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:21:19-42
+activity#com.example.xidian.myapplication1.Web_View
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:22:9-46
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:22:19-43
+activity#com.example.xidian.myapplication1.LoginActivity
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:23:19-48
+uses-sdk
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\e8e8c0189a595ccc6a4b3f0f081e43c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\e8e8c0189a595ccc6a4b3f0f081e43c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b488bbcb5d7d41354214b42c9fafc774\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b488bbcb5d7d41354214b42c9fafc774\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\b11f3cfb620480e6af578211c3ede121\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\b11f3cfb620480e6af578211c3ede121\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a9020a4f79e0e2cf2c1ee5dff1d6e130\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a9020a4f79e0e2cf2c1ee5dff1d6e130\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\51cc7bad8b17a5e9b33d84ac2e907ae4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\51cc7bad8b17a5e9b33d84ac2e907ae4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\97a1419d8ae3a13a82545cfd0139d402\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\97a1419d8ae3a13a82545cfd0139d402\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\6bfd5d5c097fae7ad0539a0531965859\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\6bfd5d5c097fae7ad0539a0531965859\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\35bfefc8cbcd152a945ba5cfc554bb54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\35bfefc8cbcd152a945ba5cfc554bb54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fff56aa0af1c26586b44844e950ab721\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\fff56aa0af1c26586b44844e950ab721\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ad1cc21121023eec0175487d7a9f02c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ad1cc21121023eec0175487d7a9f02c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\9e6cc293e28e4a8d22983c8094d4f862\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\9e6cc293e28e4a8d22983c8094d4f862\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5cb4c60eacc5c3c9fcf990add5cd4249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\5cb4c60eacc5c3c9fcf990add5cd4249\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0e9c8baadc1a59ab8922631f2dc3f710\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0e9c8baadc1a59ab8922631f2dc3f710\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65bc14a62abdddbdd97c269d0d3d8959\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65bc14a62abdddbdd97c269d0d3d8959\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c13b2b5d8b2cf2cc4e85997932a4eae8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c13b2b5d8b2cf2cc4e85997932a4eae8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bf92c41d3e2cc814613103e6e5b6167\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bf92c41d3e2cc814613103e6e5b6167\AndroidManifest.xml:20:5-44
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml

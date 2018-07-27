@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">车辆维保生产管理系统</string>
+    <string name="title_activity_recycler_view">RecyclerView</string>
+</resources>
