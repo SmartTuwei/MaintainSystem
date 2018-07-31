@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jul 27 11:53:47 CST 2018
+#Tue Jul 31 14:10:34 CST 2018
 4.path=lib/armeabi/libmsc.so
 13.baseType=DIRECTORY
 8.set=DEX

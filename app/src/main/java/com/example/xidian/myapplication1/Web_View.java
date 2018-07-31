@@ -6,26 +6,21 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
-
+import android.widget.Toast;
+import com.example.xidian.adapter.IndicatorExpandableListAdapter;
+import com.example.xidian.utils.Constant;
 import com.example.xidian.utils.JavaScriptinterface;
 import com.example.xidian.utils.MyApi;
 import com.example.xidian.utils.Mylog;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Web_View extends AppCompatActivity implements View.OnClickListener {
-    private ListView listView;
     private DrawerLayout drawerLayout;
     private TextView textView;
     private static final String TAG = "Web_View";
@@ -56,28 +51,32 @@ public class Web_View extends AppCompatActivity implements View.OnClickListener 
         String pageNum = _intent.getStringExtra("pageNum");
         webcontentbox.addJavascriptInterface(new JavaScriptinterface(this,webcontentbox), "test");
         GetenterPage(pageNum);
+    /*
+    *  监听按钮事件
+    * */
         callbackindex.setOnClickListener(this);
         Userbtn.setOnClickListener(this);
         peopleData.setOnClickListener(this);
         MyBtn.setOnClickListener(this);
         initView();
-
     }
     @SuppressLint("SetJavaScriptEnabled")
+    /*
+    * 跳转页面的方法
+    * */
     private void GetenterPage(String pageNum) {
         Mylog.i(TAG,TAG+pageNum);
-        switch(Integer.valueOf(pageNum )){
-            case 0 :
+        switch(pageNum){
+            case "00":case "10":case "20":case "30":
                 webcontentbox.loadUrl(MyApi.WEBVIEW_URL+"/wheel_diameter.html");
                 break;
-            case 1 :
-
+            case "01" :case "11" :case "21" :case "31" :
                 webcontentbox.loadUrl(MyApi.WEBVIEW_URL+"/wheel_setadd.html");
                 break;
-            case 2 :
+            case "02" :case "12" :case "22" :case "32" :
                 webcontentbox.loadUrl(MyApi.WEBVIEW_URL+"/external_door.html");
                 break;
-            case 3 :
+            case "03" :case "13" :case "23" :case "33" :
                 webcontentbox.loadUrl(MyApi.WEBVIEW_URL+"/the_wheeladd.html");
                 break;
         }
@@ -92,13 +91,13 @@ public class Web_View extends AppCompatActivity implements View.OnClickListener 
                 Goindex();
                 break;
             case R.id.MyBtn:
-                GetenterPage(String.valueOf(1));
+                GetenterPage(String.valueOf(11));
                 break;
             case R.id.peopleData:
-                GetenterPage(String.valueOf(2));
+                GetenterPage(String.valueOf(21));
                 break;
             case R.id.Userbtn:
-                GetenterPage(String.valueOf(3));
+                GetenterPage(String.valueOf(31));
                 break;
         }
     }
@@ -111,45 +110,40 @@ public class Web_View extends AppCompatActivity implements View.OnClickListener 
     // 侧滑菜单
     private void initView()
     {
-        listView=(ListView) findViewById(R.id.v4_listview);
         drawerLayout=(DrawerLayout) findViewById(R.id.v4_drawerlayout);
         textView=(TextView) findViewById(R.id.v4_text);
         initDate();
     }
-
+    //初始化数据
     private void initDate(){
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, MyApi.PAGE_LIST);
+        drawerLayout=(DrawerLayout) findViewById(R.id.v4_drawerlayout);
+        final ExpandableListView listView = (ExpandableListView) findViewById(R.id.expandable_list);
+        final IndicatorExpandableListAdapter adapter = new IndicatorExpandableListAdapter(Constant.BOOKS, Constant.FIGURES);
         listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        // 清除默认的 Indicator
+        listView.setGroupIndicator(null);
+        //  设置分组项的点击监听事件
+        listView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                switch(position){
-                    case 0:
-                        Getpage(position);
-                        break;
-                    case 1:
-                        Getpage(position);
-                        break;
-                    case 2:
-                        Getpage(position);
-                        break;
-                    case 3:
-                        Getpage(position);
-                        break;
-                }
-
-                showDrawerLayout();
+            public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
+                Log.d(TAG, "onGroupClick: groupPosition:" + groupPosition + ", id:" + id);
+                boolean groupExpanded = parent.isGroupExpanded(groupPosition);
+                adapter.setIndicatorState(groupPosition, groupExpanded);
+                // 请务必返回 false，否则分组不会展开
+                return false;
             }
         });
-        //drawerLayout.openDrawer(Gravity.LEFT);//侧滑打开  不设置则不会默认打开
-    }
-    /**
-     * 跳转页面的方法
-     *
-     */
-    private void Getpage(int posotion_num) {
-        String pageIndex = posotion_num + "";
-        this.GetenterPage(pageIndex);
+        //  设置子选项点击监听事件
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                Toast.makeText(Web_View.this, Constant.FIGURES[groupPosition][childPosition]+groupPosition+childPosition, Toast.LENGTH_SHORT).show();
+                showDrawerLayout();
+                String PageNum = ""+groupPosition+childPosition;
+                GetenterPage(PageNum);
+                return true;
+            }
+        });
     }
     /**
      * 控制菜单显示隐藏

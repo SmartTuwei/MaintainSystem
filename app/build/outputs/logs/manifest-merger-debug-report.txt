@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\e8e8c0189a595ccc6a4b3f0f081e43c9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b488bbcb5d7d41354214b42c9fafc774\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:2:1-11:12
@@ -21,20 +21,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\wangxun\.gradl
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65bc14a62abdddbdd97c269d0d3d8959\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c13b2b5d8b2cf2cc4e85997932a4eae8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bf92c41d3e2cc814613103e6e5b6167\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
-		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
-		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:2:11-69
@@ -43,7 +43,7 @@ ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:4:5-83
 	android:name
 		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\wangxun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\96efaed0df18e15f95fd8afb6dcef1b8\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -96,6 +96,10 @@ activity#com.example.xidian.myapplication1.LoginActivity
 ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:23:9-51
 	android:name
 		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:23:19-48
+activity#com.example.xidian.myapplication1.IndicatorExpandActivity
+ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from D:\MaintainSystem\app\src\main\AndroidManifest.xml:24:19-58
 uses-sdk
 INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\MaintainSystem\app\src\main\AndroidManifest.xml

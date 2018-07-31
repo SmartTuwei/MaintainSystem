@@ -32,6 +32,7 @@
         <activity android:name="com.example.xidian.myapplication1.YuyinXf" />
         <activity android:name="com.example.xidian.myapplication1.Web_View" />
         <activity android:name="com.example.xidian.myapplication1.LoginActivity" />
+        <activity android:name="com.example.xidian.myapplication1.IndicatorExpandActivity" />
     </application>
 
 </manifest>

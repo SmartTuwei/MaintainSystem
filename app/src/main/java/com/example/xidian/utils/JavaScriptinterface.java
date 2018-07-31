@@ -1,12 +1,11 @@
 package com.example.xidian.utils;
 
 import android.content.Context;
+import android.content.Intent;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-
-import com.example.xidian.myapplication1.Web_View;
 
 public class JavaScriptinterface extends Object{
 
@@ -21,6 +20,5 @@ public class JavaScriptinterface extends Object{
            Toast.makeText(context, "hello",Toast.LENGTH_LONG).show();
            System.out.println("JS调用了Android的hello方法");
     }
-
 
 }
