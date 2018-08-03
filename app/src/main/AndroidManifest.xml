@@ -21,6 +21,5 @@
         <activity android:name=".YuyinXf" />
         <activity android:name=".Web_View" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".IndicatorExpandActivity" />
     </application>
 </manifest>

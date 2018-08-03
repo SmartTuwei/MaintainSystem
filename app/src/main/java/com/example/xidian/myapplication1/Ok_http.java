@@ -29,6 +29,7 @@ public class Ok_http extends AppCompatActivity implements View.OnClickListener{
         ggggbbbbb = findViewById(R.id.ggggbbbbb);
         btn_get.setOnClickListener(this);
         tv_result.setOnClickListener(this);
+
     }
     @Override
     /*
