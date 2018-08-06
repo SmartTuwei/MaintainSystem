@@ -1368,10 +1368,6 @@
         "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashbg.jpg.flat",
-        "source": "D:\\MaintainSystem\\app\\src\\main\\res\\drawable\\splashbg.jpg"
-    },
-    {
         "merged": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\e8e8c0189a595ccc6a4b3f0f081e43c9\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -1546,6 +1542,10 @@
     {
         "merged": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashbg.png.flat",
+        "source": "D:\\MaintainSystem\\app\\src\\main\\res\\drawable\\splashbg.png"
     },
     {
         "merged": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",

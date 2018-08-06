@@ -6,3 +6,4 @@
 *.iml
 /captures
 app1
+/app/build/*
