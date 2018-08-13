@@ -1,38 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
-                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
-                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1957",
-                        "endColumns": "100",
-                        "endOffsets": "2053"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
@@ -60,6 +28,38 @@
                         "startOffsets": "1810",
                         "endColumns": "101",
                         "endOffsets": "1907"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
+                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
+                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1957",
+                        "endColumns": "100",
+                        "endOffsets": "2053"
                     }
                 }
             ]
@@ -323,70 +323,6 @@
             ]
         },
         {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-ml\\values-ml.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,224,342,457,550,655,787,864,940,1022,1133,1239,1337,1451,1551,1662,1821,1922",
-                        "endColumns": "118,117,114,92,104,131,76,75,81,110,105,97,113,99,110,158,100,81",
-                        "endOffsets": "219,337,452,545,650,782,859,935,1017,1128,1234,1332,1446,1546,1657,1816,1917,1999"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-ml\\values-ml.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2004",
-                        "endColumns": "100",
-                        "endOffsets": "2100"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-si\\values-si.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
-                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
-                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-si\\values-si.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1965",
-                        "endColumns": "100",
-                        "endOffsets": "2061"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
@@ -608,6 +544,70 @@
             ]
         },
         {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,342,457,550,655,787,864,940,1022,1133,1239,1337,1451,1551,1662,1821,1922",
+                        "endColumns": "118,117,114,92,104,131,76,75,81,110,105,97,113,99,110,158,100,81",
+                        "endOffsets": "219,337,452,545,650,782,859,935,1017,1128,1234,1332,1446,1546,1657,1816,1917,1999"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2004",
+                        "endColumns": "100",
+                        "endOffsets": "2100"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-da_values-da.arsc.flat",
             "map": [
                 {
@@ -769,38 +769,6 @@
             ]
         },
         {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-pa\\values-pa.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,305,410,496,596,709,786,862,941,1042,1146,1243,1352,1451,1561,1720,1820",
-                        "endColumns": "102,96,104,85,99,112,76,75,78,100,103,96,108,98,109,158,99,79",
-                        "endOffsets": "203,300,405,491,591,704,781,857,936,1037,1141,1238,1347,1446,1556,1715,1815,1895"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-pa\\values-pa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1900",
-                        "endColumns": "100",
-                        "endOffsets": "1996"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-gu_values-gu.arsc.flat",
             "map": [
                 {
@@ -828,6 +796,38 @@
                         "startOffsets": "1937",
                         "endColumns": "100",
                         "endOffsets": "2033"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,305,410,496,596,709,786,862,941,1042,1146,1243,1352,1451,1561,1720,1820",
+                        "endColumns": "102,96,104,85,99,112,76,75,78,100,103,96,108,98,109,158,99,79",
+                        "endOffsets": "203,300,405,491,591,704,781,857,936,1037,1141,1238,1347,1446,1556,1715,1815,1895"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5cb4c60eacc5c3c9fcf990add5cd4249\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1900",
+                        "endColumns": "100",
+                        "endOffsets": "1996"
                     }
                 }
             ]
@@ -897,6 +897,22 @@
             ]
         },
         {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-land_values-land.arsc.flat",
             "map": [
                 {
@@ -926,22 +942,6 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
                     }
                 }
             ]
@@ -1235,6 +1235,22 @@
             ]
         },
         {
+            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v17_values-v17.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
             "map": [
                 {
@@ -1262,22 +1278,6 @@
                         "startOffsets": "1958",
                         "endColumns": "102",
                         "endOffsets": "2056"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\MaintainSystem\\app\\build\\intermediates\\res\\merged\\debug\\values-v17_values-v17.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\wangxun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b488bbcb5d7d41354214b42c9fafc774\\res\\values-v17\\values-v17.xml",
-                    "from": {
-                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
-                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
                     }
                 }
             ]

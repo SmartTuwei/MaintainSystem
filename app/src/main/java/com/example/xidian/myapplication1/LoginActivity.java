@@ -1,33 +1,36 @@
 package com.example.xidian.myapplication1;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.xidian.utils.MyApi;
+
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.IOException;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import com.example.xidian.utils.MyApi;
-import com.example.xidian.utils.Mylog;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = "LoginActivity";
     private EditText username;
     private EditText password;
     private Button loginbtn;
-
+    private CheckBox logincheckBox2;
+    private SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
@@ -35,13 +38,28 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginbtn = (Button)findViewById(R.id.loginbtn);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
+        logincheckBox2 = findViewById(R.id.logincheckBox2);
+        /*
+        * 监听登录按钮
+        * */
         loginbtn.setOnClickListener(this);
         //设置透明度
         loginbtn.getBackground().setAlpha(100);
+        init();
     }
-/*
-*  点击事件
-* */
+
+    /*
+    * 初始化
+    * */
+    public void init(){
+        sharedPreferences = getSharedPreferences("config", 0);//创建一个实例
+        username.setText(sharedPreferences.getString("name", ""));
+        password.setText(sharedPreferences.getString("password", ""));
+        logincheckBox2.setChecked(sharedPreferences.getBoolean("isChecked", false));
+    }
+    /*
+    *  点击事件
+    * */
     @Override
     public void onClick(View v) {
         switch(v.getId()){
@@ -57,6 +75,20 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         String sname =  username.getText().toString();
         String spassword =  password.getText().toString();
         String url = MyApi.WEBVIEW_URL + "/login?username=" + sname +"&password="+spassword;
+        //存储登录状态数据
+        if(logincheckBox2.isChecked()){
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("name", sname);
+            editor.putString("password", spassword);
+            editor.putBoolean("isChecked", logincheckBox2.isChecked());
+            editor.commit();
+        }else{
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("name", "");
+            editor.putString("password", "");
+            editor.putBoolean("isChecked", logincheckBox2.isChecked());
+            editor.commit();
+        }
         OkHttpClient okHttpClient = new  OkHttpClient();
         Request.Builder builder = new Request.Builder();
         Request request = builder.get().url(url).build();
